@@ -332,38 +332,7 @@ tr:nth-child(even) td { background: #f9fbfd; }
   pointer-events: none !important;
   filter: drop-shadow(0 10px 18px rgba(7,52,94,.14)) !important;
 }
-.slide:not(.cover) .slide-title { padding-right: clamp(230px, 19vw, 320px); }
-/* Selected deck viewport fit */
-.slide:not(.cover) {
-  grid-template-rows: auto minmax(0, 1fr) 44px !important;
-  padding-bottom: clamp(84px, 9vh, 112px) !important;
-}
-.slide:not(.cover) .slide-body {
-  align-items: center !important;
-  max-height: calc(100vh - clamp(250px, 28vh, 320px)) !important;
-}
-.slide:not(.cover) .chart-panel {
-  min-height: 0 !important;
-  height: min(48vh, 480px) !important;
-  overflow: visible !important;
-}
-.slide:not(.cover) .chart-wrap,
-.slide:not(.cover) .chart-wrap.large {
-  min-height: 0 !important;
-  height: 100% !important;
-}
-.slide:not(.cover) .footer {
-  min-height: 38px !important;
-  align-items: center !important;
-}
-.slide[data-title="Rosário x Sergipe"] .split {
-  align-items: center !important;
-  grid-template-columns: minmax(0, 72%) minmax(260px, 1fr) !important;
-}
-.slide[data-title="Rosário x Sergipe"] .insight {
-  align-self: center !important;
-}
-</style>
+.slide:not(.cover) .slide-title { padding-right: clamp(230px, 19vw, 320px); }</style>
 </head>
 <body>
 <div class="presentation-shell" aria-live="polite">
@@ -1816,8 +1785,6 @@ document.addEventListener('DOMContentLoaded',()=>{ renderStaticContent(); initNa
 </script>
 </body>
 </html>
-
-
 
 
 
