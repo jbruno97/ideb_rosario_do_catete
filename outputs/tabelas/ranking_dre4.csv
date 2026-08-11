@@ -1,0 +1,33 @@
+﻿ano,sigla_uf,id_municipio,municipio,rede,ensino,anos_escolares,taxa_aprovacao,indicador_rendimento,nota_saeb_matematica,nota_saeb_lingua_portuguesa,nota_saeb_media_padronizada,ideb,projecao,posicao_estadual,municipio_dre4,posicao_dre4
+2023,SE,2802007,Divina Pastora,municipal,fundamental,finais (6-9),95.5,0.953861,232.67,235.63,4.471667,4.3,,4,Divina Pastora,1
+2023,SE,2802502,General Maynard,municipal,fundamental,finais (6-9),90.4,0.89504,245.02,227.53,4.5425,4.1,,8,General Maynard,2
+2023,SE,2801306,Capela,municipal,fundamental,finais (6-9),89.4,0.896485,236.52,236.41,4.548833,4.1,,8,Capela,2
+2023,SE,2803302,Japaratuba,municipal,fundamental,finais (6-9),81.4,0.811582,240.75,242.91,4.727667,3.8,,19,Japaratuba,4
+2023,SE,2806107,Rosário do Catete,municipal,fundamental,finais (6-9),83.9,0.848181,225.91,236.34,4.370833,3.7,,26,Rosario do Catete,5
+2023,SE,2806503,Santa Rosa de Lima,municipal,fundamental,finais (6-9),92.7,0.929302,210.94,224.59,3.9255,3.6,,29,Santa Rosa de Lima,6
+2023,SE,2801504,Carmópolis,municipal,fundamental,finais (6-9),88.9,0.89559,220.39,221.17,4.026,3.6,,29,Carmopolis,6
+2023,SE,2807204,Siriri,municipal,fundamental,finais (6-9),67.6,0.681882,234.13,230.45,4.409667,3.0,,61,Siriri,8
+2023,SE,2803302,Japaratuba,municipal,fundamental,iniciais (1-5),94.7,0.948921,205.91,196.14,5.459815,5.2,,5,Japaratuba,1
+2023,SE,2802502,General Maynard,municipal,fundamental,iniciais (1-5),99.4,0.995935,193.22,184.52,5.006366,5.0,,10,General Maynard,2
+2023,SE,2807204,Siriri,municipal,fundamental,iniciais (1-5),90.5,0.905313,199.23,187.82,5.181061,4.7,,17,Siriri,3
+2023,SE,2801306,Capela,municipal,fundamental,iniciais (1-5),96.1,0.957981,188.73,177.04,4.784679,4.6,,25,Capela,4
+2023,SE,2806107,Rosário do Catete,municipal,fundamental,iniciais (1-5),91.9,0.912729,194.11,185.45,5.04026,4.6,,25,Rosario do Catete,4
+2023,SE,2802007,Divina Pastora,municipal,fundamental,iniciais (1-5),89.1,0.896002,187.64,191.2,5.021332,4.5,,31,Divina Pastora,6
+2023,SE,2801504,Carmópolis,municipal,fundamental,iniciais (1-5),92.0,0.918508,191.03,180.72,4.895482,4.5,,31,Carmopolis,6
+2025,SE,2802502,General Maynard,municipal,fundamental,finais (6-9),100.0,1.0,235.08,239.97,4.584167,4.6,,13,General Maynard,1
+2025,SE,2801306,Capela,municipal,fundamental,finais (6-9),96.4,0.96484,229.42,227.25,4.277833,4.1,,31,Capela,2
+2025,SE,2801504,Carmópolis,municipal,fundamental,finais (6-9),84.5,0.846446,237.06,250.68,4.795667,4.1,,31,Carmopolis,2
+2025,SE,2806107,Rosário do Catete,municipal,fundamental,finais (6-9),92.8,0.934312,230.51,234.28,4.413167,4.1,,31,Rosario do Catete,2
+2025,SE,2807204,Siriri,municipal,fundamental,finais (6-9),84.1,0.848671,249.91,238.62,4.808833,4.1,,31,Siriri,2
+2025,SE,2806503,Santa Rosa de Lima,municipal,fundamental,finais (6-9),84.4,0.853689,244.4,239.3,4.728333,4.0,,38,Santa Rosa de Lima,6
+2025,SE,2803302,Japaratuba,municipal,fundamental,finais (6-9),86.2,0.8636,235.55,236.3,4.530833,3.9,,42,Japaratuba,7
+2025,SE,2802007,Divina Pastora,municipal,fundamental,finais (6-9),94.3,0.939942,225.6,214.89,4.008167,3.8,,48,Divina Pastora,8
+2025,SE,2806107,Rosário do Catete,municipal,fundamental,iniciais (1-5),98.2,0.983556,208.41,193.57,5.460797,5.4,,16,Rosario do Catete,1
+2025,SE,2803302,Japaratuba,municipal,fundamental,iniciais (1-5),95.7,0.956588,206.83,199.87,5.54519,5.3,,21,Japaratuba,2
+2025,SE,2807204,Siriri,municipal,fundamental,iniciais (1-5),97.4,0.974135,201.03,201.22,5.459049,5.3,,21,Siriri,2
+2025,SE,2801306,Capela,municipal,fundamental,iniciais (1-5),99.6,0.995993,200.75,188.62,5.224614,5.2,,29,Capela,4
+2025,SE,2801504,Carmópolis,municipal,fundamental,iniciais (1-5),95.0,0.952692,192.57,190.92,5.110325,4.9,,43,Carmopolis,5
+2025,SE,2805307,Pirambu,municipal,fundamental,iniciais (1-5),91.2,0.911324,197.13,201.58,5.391167,4.9,,43,Pirambu,5
+2025,SE,2802007,Divina Pastora,municipal,fundamental,iniciais (1-5),97.8,0.979099,191.28,183.49,4.950616,4.8,,49,Divina Pastora,7
+2025,SE,2802502,General Maynard,municipal,fundamental,iniciais (1-5),100.0,1.0,186.69,174.45,4.698657,4.7,,54,General Maynard,8
+2025,SE,2806503,Santa Rosa de Lima,municipal,fundamental,iniciais (1-5),99.1,0.988275,170.33,168.22,4.273171,4.2,,68,Santa Rosa de Lima,9

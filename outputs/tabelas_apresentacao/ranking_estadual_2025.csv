@@ -1,0 +1,147 @@
+﻿ano,sigla_uf,id_municipio,municipio,rede,ensino,anos_escolares,taxa_aprovacao,indicador_rendimento,nota_saeb_matematica,nota_saeb_lingua_portuguesa,nota_saeb_media_padronizada,ideb,projecao,posicao_estadual,etapa,ranking_seq
+2025,SE,2803005,Itabaianinha,municipal,fundamental,finais (6-9),98.9,0.989227,268.91,254.3,5.386833,5.3,,1,Anos finais,1
+2025,SE,2801603,Cedro de São João,municipal,fundamental,finais (6-9),97.5,0.975307,253.76,262.64,5.273333,5.1,,2,Anos finais,2
+2025,SE,2802700,Ilha das Flores,municipal,fundamental,finais (6-9),98.0,0.980825,257.52,254.25,5.196167,5.1,,2,Anos finais,3
+2025,SE,2804102,Moita Bonita,municipal,fundamental,finais (6-9),89.3,0.897807,268.19,264.59,5.546333,5.0,,4,Anos finais,4
+2025,SE,2803104,Itabi,municipal,fundamental,finais (6-9),97.5,0.9775,245.36,256.47,5.0305,4.9,,5,Anos finais,5
+2025,SE,2806206,Salgado,municipal,fundamental,finais (6-9),96.7,0.968932,246.48,258.52,5.083333,4.9,,5,Anos finais,6
+2025,SE,2803401,Japoatã,municipal,fundamental,finais (6-9),89.1,0.897493,254.05,264.32,5.306167,4.8,,7,Anos finais,7
+2025,SE,2806701,São Cristóvão,municipal,fundamental,finais (6-9),98.0,0.980686,243.89,246.76,4.844167,4.8,,7,Anos finais,8
+2025,SE,2800704,Brejo Grande,municipal,fundamental,finais (6-9),97.8,0.976647,255.76,231.29,4.784167,4.7,,9,Anos finais,9
+2025,SE,2803500,Lagarto,municipal,fundamental,finais (6-9),89.3,0.898055,255.47,261.42,5.2815,4.7,,9,Anos finais,10
+2025,SE,2804508,Nossa Senhora da Glória,municipal,fundamental,finais (6-9),92.8,0.924271,252.73,250.82,5.059167,4.7,,9,Anos finais,11
+2025,SE,2807105,Simão Dias,municipal,fundamental,finais (6-9),93.4,0.936394,255.25,243.82,4.9845,4.7,,9,Anos finais,12
+2025,SE,2802502,General Maynard,municipal,fundamental,finais (6-9),100.0,1.0,235.08,239.97,4.584167,4.6,,13,Anos finais,13
+2025,SE,2803807,Malhada dos Bois,municipal,fundamental,finais (6-9),99.4,0.992589,240.32,239.18,4.658333,4.6,,13,Anos finais,14
+2025,SE,2805000,Pedra Mole,municipal,fundamental,finais (6-9),89.9,0.894365,244.22,261.2,5.090333,4.6,,13,Anos finais,15
+2025,SE,2807006,São Miguel do Aleixo,municipal,fundamental,finais (6-9),93.3,0.935685,241.51,254.31,4.930333,4.6,,13,Anos finais,16
+2025,SE,2806404,Santana do São Francisco,municipal,fundamental,finais (6-9),97.3,0.971352,239.78,238.38,4.636,4.5,,17,Anos finais,17
+2025,SE,2800308,Aracaju,municipal,fundamental,finais (6-9),93.4,0.937836,240.19,243.86,4.734167,4.4,,18,Anos finais,18
+2025,SE,2800605,Barra dos Coqueiros,municipal,fundamental,finais (6-9),91.8,0.920767,239.87,246.71,4.776333,4.4,,18,Anos finais,19
+2025,SE,2801405,Carira,municipal,fundamental,finais (6-9),88.9,0.894945,241.67,250.11,4.863,4.4,,18,Anos finais,20
+2025,SE,2806800,São Domingos,municipal,fundamental,finais (6-9),94.3,0.946739,238.26,239.28,4.625667,4.4,,18,Anos finais,21
+2025,SE,2800407,Arauá,municipal,fundamental,finais (6-9),90.3,0.91213,233.64,246.5,4.669,4.3,,22,Anos finais,22
+2025,SE,2804904,Pacatuba,municipal,fundamental,finais (6-9),90.5,0.906242,243.03,239.15,4.703,4.3,,22,Anos finais,23
+2025,SE,2805109,Pedrinhas,municipal,fundamental,finais (6-9),86.6,0.876568,234.36,256.91,4.8545,4.3,,22,Anos finais,24
+2025,SE,2806909,São Francisco,municipal,fundamental,finais (6-9),87.5,0.877555,245.72,251.03,4.945833,4.3,,22,Anos finais,25
+2025,SE,2807303,Telha,municipal,fundamental,finais (6-9),100.0,1.0,226.29,232.63,4.315333,4.3,,22,Anos finais,26
+2025,SE,2807402,Tobias Barreto,municipal,fundamental,finais (6-9),91.0,0.912253,240.98,241.78,4.712667,4.3,,22,Anos finais,27
+2025,SE,2801108,Canhoba,municipal,fundamental,finais (6-9),89.3,0.89597,243.98,240.33,4.7385,4.2,,28,Anos finais,28
+2025,SE,2803203,Itaporanga d'Ajuda,municipal,fundamental,finais (6-9),88.0,0.886837,236.37,249.21,4.759667,4.2,,28,Anos finais,29
+2025,SE,2804805,Nossa Senhora do Socorro,municipal,fundamental,finais (6-9),94.7,0.948878,230.95,235.08,4.433833,4.2,,28,Anos finais,30
+2025,SE,2801207,Canindé de São Francisco,municipal,fundamental,finais (6-9),83.8,0.841445,241.36,248.71,4.8345,4.1,,31,Anos finais,31
+2025,SE,2801306,Capela,municipal,fundamental,finais (6-9),96.4,0.96484,229.42,227.25,4.277833,4.1,,31,Anos finais,32
+2025,SE,2801504,Carmópolis,municipal,fundamental,finais (6-9),84.5,0.846446,237.06,250.68,4.795667,4.1,,31,Anos finais,33
+2025,SE,2801702,Cristinápolis,municipal,fundamental,finais (6-9),93.6,0.937903,232.24,233.21,4.424167,4.1,,31,Anos finais,34
+2025,SE,2804300,Muribeca,municipal,fundamental,finais (6-9),94.5,0.948029,234.66,227.47,4.368833,4.1,,31,Anos finais,35
+2025,SE,2806107,Rosário do Catete,municipal,fundamental,finais (6-9),92.8,0.934312,230.51,234.28,4.413167,4.1,,31,Anos finais,36
+2025,SE,2807204,Siriri,municipal,fundamental,finais (6-9),84.1,0.848671,249.91,238.62,4.808833,4.1,,31,Anos finais,37
+2025,SE,2802809,Indiaroba,municipal,fundamental,finais (6-9),88.9,0.891623,240.5,231.92,4.540333,4.0,,38,Anos finais,38
+2025,SE,2802908,Itabaiana,municipal,fundamental,finais (6-9),84.4,0.847527,242.33,239.37,4.695,4.0,,38,Anos finais,39
+2025,SE,2806503,Santa Rosa de Lima,municipal,fundamental,finais (6-9),84.4,0.853689,244.4,239.3,4.728333,4.0,,38,Anos finais,40
+2025,SE,2807600,Umbaúba,municipal,fundamental,finais (6-9),86.7,0.870233,237.67,236.17,4.564,4.0,,38,Anos finais,41
+2025,SE,2801009,Campo do Brito,municipal,fundamental,finais (6-9),80.0,0.803366,249.98,244.52,4.908333,3.9,,42,Anos finais,42
+2025,SE,2802106,Estância,municipal,fundamental,finais (6-9),84.1,0.844143,237.36,242.13,4.658167,3.9,,42,Anos finais,43
+2025,SE,2802601,Graccho Cardoso,municipal,fundamental,finais (6-9),96.3,0.965019,220.74,223.89,4.077167,3.9,,42,Anos finais,44
+2025,SE,2803302,Japaratuba,municipal,fundamental,finais (6-9),86.2,0.8636,235.55,236.3,4.530833,3.9,,42,Anos finais,45
+2025,SE,2804201,Monte Alegre de Sergipe,municipal,fundamental,finais (6-9),97.7,0.9653,219.17,225.31,4.074667,3.9,,42,Anos finais,46
+2025,SE,2805802,Riachão do Dantas,municipal,fundamental,finais (6-9),89.4,0.895738,233.16,230.69,4.3975,3.9,,42,Anos finais,47
+2025,SE,2800100,Amparo do São Francisco,municipal,fundamental,finais (6-9),76.4,0.743569,263.39,246.81,5.17,3.8,,48,Anos finais,48
+2025,SE,2800670,Boquim,municipal,fundamental,finais (6-9),86.3,0.865032,235.89,229.75,4.427333,3.8,,48,Anos finais,49
+2025,SE,2802007,Divina Pastora,municipal,fundamental,finais (6-9),94.3,0.939942,225.6,214.89,4.008167,3.8,,48,Anos finais,50
+2025,SE,2804409,Neópolis,municipal,fundamental,finais (6-9),93.9,0.939524,220.17,224.23,4.073333,3.8,,48,Anos finais,51
+2025,SE,2806602,Santo Amaro das Brotas,municipal,fundamental,finais (6-9),88.6,0.893359,228.61,228.41,4.283667,3.8,,48,Anos finais,52
+2025,SE,2802304,Frei Paulo,municipal,fundamental,finais (6-9),81.6,0.822829,232.05,238.15,4.503333,3.7,,53,Anos finais,53
+2025,SE,2804458,Nossa Senhora Aparecida,municipal,fundamental,finais (6-9),85.4,0.85905,220.08,235.84,4.265333,3.7,,53,Anos finais,54
+2025,SE,2805208,Pinhão,municipal,fundamental,finais (6-9),87.7,0.88003,229.15,223.43,4.209667,3.7,,53,Anos finais,55
+2025,SE,2806305,Santa Luzia do Itanhy,municipal,fundamental,finais (6-9),86.7,0.866165,227.62,228.28,4.265,3.7,,53,Anos finais,56
+2025,SE,2801900,Cumbe,municipal,fundamental,finais (6-9),75.0,0.751875,246.92,240.12,4.784,3.6,,57,Anos finais,57
+2025,SE,2804706,Nossa Senhora de Lourdes,municipal,fundamental,finais (6-9),86.4,0.860867,223.7,228.74,4.207333,3.6,,57,Anos finais,58
+2025,SE,2800506,Areia Branca,municipal,fundamental,finais (6-9),78.1,0.779966,234.86,238.21,4.551167,3.5,,59,Anos finais,59
+2025,SE,2803708,Macambira,municipal,fundamental,finais (6-9),84.3,0.84452,228.55,220.42,4.1495,3.5,,59,Anos finais,60
+2025,SE,2803906,Malhador,municipal,fundamental,finais (6-9),73.9,0.74562,243.78,239.49,4.721167,3.5,,59,Anos finais,61
+2025,SE,2804003,Maruim,municipal,fundamental,finais (6-9),80.7,0.809029,226.07,231.08,4.285833,3.5,,59,Anos finais,62
+2025,SE,2804607,Nossa Senhora das Dores,municipal,fundamental,finais (6-9),83.5,0.832147,225.87,223.28,4.1525,3.5,,59,Anos finais,63
+2025,SE,2805406,Poço Redondo,municipal,fundamental,finais (6-9),79.0,0.790046,227.43,241.56,4.483167,3.5,,59,Anos finais,64
+2025,SE,2805505,Poço Verde,municipal,fundamental,finais (6-9),87.0,0.863362,214.38,227.94,4.038667,3.5,,59,Anos finais,65
+2025,SE,2805901,Riachuelo,municipal,fundamental,finais (6-9),81.6,0.81152,232.47,228.66,4.352167,3.5,,59,Anos finais,66
+2025,SE,2806008,Ribeirópolis,municipal,fundamental,finais (6-9),76.2,0.776428,226.2,241.44,4.460667,3.5,,59,Anos finais,67
+2025,SE,2800209,Aquidabã,municipal,fundamental,finais (6-9),85.6,0.865159,219.69,219.16,3.980833,3.4,,68,Anos finais,68
+2025,SE,2802205,Feira Nova,municipal,fundamental,finais (6-9),88.4,0.897512,221.18,206.51,3.794833,3.4,,68,Anos finais,69
+2025,SE,2805604,Porto da Folha,municipal,fundamental,finais (6-9),85.0,0.850997,217.19,220.78,3.966167,3.4,,68,Anos finais,70
+2025,SE,2803609,Laranjeiras,municipal,fundamental,finais (6-9),76.5,0.782265,215.83,215.99,3.863667,3.0,,71,Anos finais,71
+2025,SE,2801108,Canhoba,municipal,fundamental,iniciais (1-5),95.6,0.954561,265.75,246.3,7.513799,7.2,,1,Anos iniciais,1
+2025,SE,2806701,São Cristóvão,municipal,fundamental,iniciais (1-5),100.0,1.0,251.99,234.44,7.035568,7.0,,2,Anos iniciais,2
+2025,SE,2803005,Itabaianinha,municipal,fundamental,iniciais (1-5),99.6,0.995982,229.39,212.22,6.20027,6.2,,3,Anos iniciais,3
+2025,SE,2800308,Aracaju,municipal,fundamental,iniciais (1-5),98.3,0.983928,216.7,206.71,5.857913,5.8,,4,Anos iniciais,4
+2025,SE,2807501,Tomar do Geru,municipal,fundamental,iniciais (1-5),96.5,0.963256,222.8,203.96,5.924325,5.7,,5,Anos iniciais,5
+2025,SE,2801603,Cedro de São João,municipal,fundamental,iniciais (1-5),99.0,0.991697,219.04,195.07,5.690933,5.6,,6,Anos iniciais,6
+2025,SE,2802601,Graccho Cardoso,municipal,fundamental,iniciais (1-5),98.2,0.98569,210.53,203.27,5.677619,5.6,,6,Anos iniciais,7
+2025,SE,2803807,Malhada dos Bois,municipal,fundamental,iniciais (1-5),100.0,1.0,213.0,195.6,5.585302,5.6,,6,Anos iniciais,8
+2025,SE,2804102,Moita Bonita,municipal,fundamental,iniciais (1-5),99.3,0.993311,213.96,195.79,5.607077,5.6,,6,Anos iniciais,9
+2025,SE,2807402,Tobias Barreto,municipal,fundamental,iniciais (1-5),98.1,0.980423,212.07,201.33,5.671736,5.6,,6,Anos iniciais,10
+2025,SE,2800407,Arauá,municipal,fundamental,iniciais (1-5),97.4,0.974895,209.39,203.54,5.660772,5.5,,11,Anos iniciais,11
+2025,SE,2801405,Carira,municipal,fundamental,iniciais (1-5),96.5,0.965624,211.28,202.01,5.669023,5.5,,11,Anos iniciais,12
+2025,SE,2804508,Nossa Senhora da Glória,municipal,fundamental,iniciais (1-5),97.4,0.972183,212.37,200.11,5.655279,5.5,,11,Anos iniciais,13
+2025,SE,2805208,Pinhão,municipal,fundamental,iniciais (1-5),98.7,0.987591,208.51,201.25,5.602342,5.5,,11,Anos iniciais,14
+2025,SE,2806800,São Domingos,municipal,fundamental,iniciais (1-5),95.3,0.951082,214.73,204.37,5.777772,5.5,,11,Anos iniciais,15
+2025,SE,2800605,Barra dos Coqueiros,municipal,fundamental,iniciais (1-5),96.0,0.960197,213.01,199.48,5.656038,5.4,,16,Anos iniciais,16
+2025,SE,2801009,Campo do Brito,municipal,fundamental,iniciais (1-5),95.9,0.957243,210.17,202.86,5.663294,5.4,,16,Anos iniciais,17
+2025,SE,2805000,Pedra Mole,municipal,fundamental,iniciais (1-5),98.0,0.977321,207.94,196.19,5.499464,5.4,,16,Anos iniciais,18
+2025,SE,2806107,Rosário do Catete,municipal,fundamental,iniciais (1-5),98.2,0.983556,208.41,193.57,5.460797,5.4,,16,Anos iniciais,19
+2025,SE,2807303,Telha,municipal,fundamental,iniciais (1-5),100.0,1.0,207.88,193.27,5.445228,5.4,,16,Anos iniciais,20
+2025,SE,2800100,Amparo do São Francisco,municipal,fundamental,iniciais (1-5),93.4,0.933968,217.36,198.05,5.713053,5.3,,21,Anos iniciais,21
+2025,SE,2803302,Japaratuba,municipal,fundamental,iniciais (1-5),95.7,0.956588,206.83,199.87,5.54519,5.3,,21,Anos iniciais,22
+2025,SE,2804805,Nossa Senhora do Socorro,municipal,fundamental,iniciais (1-5),99.0,0.989533,203.45,194.2,5.377595,5.3,,21,Anos iniciais,23
+2025,SE,2805505,Poço Verde,municipal,fundamental,iniciais (1-5),95.6,0.953235,205.66,201.03,5.543953,5.3,,21,Anos iniciais,24
+2025,SE,2805802,Riachão do Dantas,municipal,fundamental,iniciais (1-5),98.0,0.98067,206.07,192.41,5.39505,5.3,,21,Anos iniciais,25
+2025,SE,2807204,Siriri,municipal,fundamental,iniciais (1-5),97.4,0.974135,201.03,201.22,5.459049,5.3,,21,Anos iniciais,26
+2025,SE,2806909,São Francisco,municipal,fundamental,iniciais (1-5),97.0,0.968468,209.66,193.8,5.488834,5.3,,21,Anos iniciais,27
+2025,SE,2807600,Umbaúba,municipal,fundamental,iniciais (1-5),95.3,0.953057,204.77,200.71,5.52115,5.3,,21,Anos iniciais,28
+2025,SE,2801306,Capela,municipal,fundamental,iniciais (1-5),99.6,0.995993,200.75,188.62,5.224614,5.2,,29,Anos iniciais,29
+2025,SE,2802205,Feira Nova,municipal,fundamental,iniciais (1-5),93.8,0.940304,209.91,196.78,5.547787,5.2,,29,Anos iniciais,30
+2025,SE,2802304,Frei Paulo,municipal,fundamental,iniciais (1-5),89.8,0.887657,212.6,208.78,5.817305,5.2,,29,Anos iniciais,31
+2025,SE,2803104,Itabi,municipal,fundamental,iniciais (1-5),96.5,0.966236,206.46,191.02,5.37722,5.2,,29,Anos iniciais,32
+2025,SE,2804409,Neópolis,municipal,fundamental,iniciais (1-5),99.8,0.997577,198.92,189.09,5.198236,5.2,,29,Anos iniciais,33
+2025,SE,2805703,Propriá,municipal,fundamental,iniciais (1-5),99.9,0.998794,198.78,191.78,5.244473,5.2,,29,Anos iniciais,34
+2025,SE,2806206,Salgado,municipal,fundamental,iniciais (1-5),96.9,0.969446,201.67,193.04,5.322535,5.2,,29,Anos iniciais,35
+2025,SE,2800506,Areia Branca,municipal,fundamental,iniciais (1-5),92.8,0.929675,207.42,189.03,5.359359,5.0,,36,Anos iniciais,36
+2025,SE,2801702,Cristinápolis,municipal,fundamental,iniciais (1-5),96.5,0.96559,199.65,188.97,5.209985,5.0,,36,Anos iniciais,37
+2025,SE,2801900,Cumbe,municipal,fundamental,iniciais (1-5),95.3,0.938797,203.25,191.76,5.329415,5.0,,36,Anos iniciais,38
+2025,SE,2802908,Itabaiana,municipal,fundamental,iniciais (1-5),94.2,0.939681,202.91,192.76,5.341108,5.0,,36,Anos iniciais,39
+2025,SE,2804300,Muribeca,municipal,fundamental,iniciais (1-5),98.0,0.980707,200.65,184.22,5.142706,5.0,,36,Anos iniciais,40
+2025,SE,2806008,Ribeirópolis,municipal,fundamental,iniciais (1-5),96.3,0.964473,194.96,189.63,5.132482,5.0,,36,Anos iniciais,41
+2025,SE,2807105,Simão Dias,municipal,fundamental,iniciais (1-5),97.7,0.97565,192.4,192.27,5.131627,5.0,,36,Anos iniciais,42
+2025,SE,2801504,Carmópolis,municipal,fundamental,iniciais (1-5),95.0,0.952692,192.57,190.92,5.110325,4.9,,43,Anos iniciais,43
+2025,SE,2803203,Itaporanga d'Ajuda,municipal,fundamental,iniciais (1-5),97.1,0.971128,192.05,185.08,4.99422,4.9,,43,Anos iniciais,44
+2025,SE,2803500,Lagarto,municipal,fundamental,iniciais (1-5),95.7,0.956921,196.74,189.43,5.162815,4.9,,43,Anos iniciais,45
+2025,SE,2804607,Nossa Senhora das Dores,municipal,fundamental,iniciais (1-5),93.5,0.931664,195.86,193.78,5.225112,4.9,,43,Anos iniciais,46
+2025,SE,2805307,Pirambu,municipal,fundamental,iniciais (1-5),91.2,0.911324,197.13,201.58,5.391167,4.9,,43,Anos iniciais,47
+2025,SE,2806404,Santana do São Francisco,municipal,fundamental,iniciais (1-5),100.0,1.0,191.64,182.71,4.943305,4.9,,43,Anos iniciais,48
+2025,SE,2802007,Divina Pastora,municipal,fundamental,iniciais (1-5),97.8,0.979099,191.28,183.49,4.950616,4.8,,49,Anos iniciais,49
+2025,SE,2802106,Estância,municipal,fundamental,iniciais (1-5),96.6,0.965749,190.45,183.02,4.926231,4.8,,49,Anos iniciais,50
+2025,SE,2802403,Gararu,municipal,fundamental,iniciais (1-5),97.8,0.979004,191.51,181.01,4.909915,4.8,,49,Anos iniciais,51
+2025,SE,2802700,Ilha das Flores,municipal,fundamental,iniciais (1-5),99.9,0.99839,192.25,175.27,4.819673,4.8,,49,Anos iniciais,52
+2025,SE,2804706,Nossa Senhora de Lourdes,municipal,fundamental,iniciais (1-5),95.2,0.952823,197.85,181.7,5.043452,4.8,,49,Anos iniciais,53
+2025,SE,2802502,General Maynard,municipal,fundamental,iniciais (1-5),100.0,1.0,186.69,174.45,4.698657,4.7,,54,Anos iniciais,54
+2025,SE,2804201,Monte Alegre de Sergipe,municipal,fundamental,iniciais (1-5),97.7,0.976733,193.91,174.54,4.83808,4.7,,54,Anos iniciais,55
+2025,SE,2804904,Pacatuba,municipal,fundamental,iniciais (1-5),99.8,0.997984,189.24,174.64,4.750776,4.7,,54,Anos iniciais,56
+2025,SE,2806602,Santo Amaro das Brotas,municipal,fundamental,iniciais (1-5),95.0,0.943554,189.98,187.94,5.006716,4.7,,54,Anos iniciais,57
+2025,SE,2803401,Japoatã,municipal,fundamental,iniciais (1-5),97.1,0.972453,184.43,180.74,4.769891,4.6,,58,Anos iniciais,58
+2025,SE,2803708,Macambira,municipal,fundamental,iniciais (1-5),95.0,0.945152,191.52,177.73,4.850469,4.6,,58,Anos iniciais,59
+2025,SE,2804458,Nossa Senhora Aparecida,municipal,fundamental,iniciais (1-5),94.9,0.949348,189.94,176.48,4.797589,4.6,,58,Anos iniciais,60
+2025,SE,2800670,Boquim,municipal,fundamental,iniciais (1-5),94.4,0.945083,189.19,177.67,4.804913,4.5,,61,Anos iniciais,61
+2025,SE,2801207,Canindé de São Francisco,municipal,fundamental,iniciais (1-5),91.4,0.914495,190.86,182.62,4.926783,4.5,,61,Anos iniciais,62
+2025,SE,2804003,Maruim,municipal,fundamental,iniciais (1-5),93.3,0.9376,185.82,181.05,4.802054,4.5,,61,Anos iniciais,63
+2025,SE,2803609,Laranjeiras,municipal,fundamental,iniciais (1-5),93.0,0.930637,183.79,176.77,4.685495,4.4,,64,Anos iniciais,64
+2025,SE,2806305,Santa Luzia do Itanhy,municipal,fundamental,iniciais (1-5),94.8,0.945828,184.28,172.98,4.625938,4.4,,64,Anos iniciais,65
+2025,SE,2803906,Malhador,municipal,fundamental,iniciais (1-5),91.6,0.914755,186.33,177.18,4.741423,4.3,,66,Anos iniciais,66
+2025,SE,2807006,São Miguel do Aleixo,municipal,fundamental,iniciais (1-5),91.4,0.913834,182.06,182.14,4.750117,4.3,,66,Anos iniciais,67
+2025,SE,2800209,Aquidabã,municipal,fundamental,iniciais (1-5),95.7,0.953402,176.69,169.6,4.419636,4.2,,68,Anos iniciais,68
+2025,SE,2800704,Brejo Grande,municipal,fundamental,iniciais (1-5),97.7,0.977385,175.78,163.1,4.284087,4.2,,68,Anos iniciais,69
+2025,SE,2802809,Indiaroba,municipal,fundamental,iniciais (1-5),97.5,0.975102,172.36,167.95,4.307002,4.2,,68,Anos iniciais,70
+2025,SE,2805604,Porto da Folha,municipal,fundamental,iniciais (1-5),95.3,0.954404,179.7,163.78,4.37126,4.2,,68,Anos iniciais,71
+2025,SE,2806503,Santa Rosa de Lima,municipal,fundamental,iniciais (1-5),99.1,0.988275,170.33,168.22,4.273171,4.2,,68,Anos iniciais,72
+2025,SE,2805109,Pedrinhas,municipal,fundamental,iniciais (1-5),96.4,0.964558,172.61,162.53,4.213228,4.1,,73,Anos iniciais,73
+2025,SE,2805406,Poço Redondo,municipal,fundamental,iniciais (1-5),93.0,0.92921,169.99,170.52,4.3085,4.0,,74,Anos iniciais,74
+2025,SE,2805901,Riachuelo,municipal,fundamental,iniciais (1-5),86.6,0.868566,181.25,174.37,4.593386,4.0,,74,Anos iniciais,75

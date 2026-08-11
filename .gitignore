@@ -1,0 +1,25 @@
+﻿# Python / environments
+.venv/
+.venv-1/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local credentials and environment
+.env
+*.env
+*.json.key
+*service-account*.json
+
+# Large/raw local data not needed for GitHub Pages
+/data/raw/
+/data/processed/
+
+# Generated local previews and caches
+web/validation_screenshots/
+outputs/apresentacao/semed_pdf_pages/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

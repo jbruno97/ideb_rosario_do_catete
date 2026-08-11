@@ -1,0 +1,18 @@
+﻿ano,sigla_uf,id_municipio,municipio,rede,ensino,anos_escolares,taxa_aprovacao,indicador_rendimento,nota_saeb_matematica,nota_saeb_lingua_portuguesa,nota_saeb_media_padronizada,ideb,projecao,posicao_estadual,municipio_dre4,posicao_dre4,etapa,ranking_seq
+2025,SE,2802502,General Maynard,municipal,fundamental,finais (6-9),100.0,1.0,235.08,239.97,4.584167,4.6,,13,General Maynard,1,Anos finais,1
+2025,SE,2801306,Capela,municipal,fundamental,finais (6-9),96.4,0.96484,229.42,227.25,4.277833,4.1,,31,Capela,2,Anos finais,2
+2025,SE,2801504,Carmópolis,municipal,fundamental,finais (6-9),84.5,0.846446,237.06,250.68,4.795667,4.1,,31,Carmopolis,2,Anos finais,3
+2025,SE,2806107,Rosário do Catete,municipal,fundamental,finais (6-9),92.8,0.934312,230.51,234.28,4.413167,4.1,,31,Rosario do Catete,2,Anos finais,4
+2025,SE,2807204,Siriri,municipal,fundamental,finais (6-9),84.1,0.848671,249.91,238.62,4.808833,4.1,,31,Siriri,2,Anos finais,5
+2025,SE,2806503,Santa Rosa de Lima,municipal,fundamental,finais (6-9),84.4,0.853689,244.4,239.3,4.728333,4.0,,38,Santa Rosa de Lima,6,Anos finais,6
+2025,SE,2803302,Japaratuba,municipal,fundamental,finais (6-9),86.2,0.8636,235.55,236.3,4.530833,3.9,,42,Japaratuba,7,Anos finais,7
+2025,SE,2802007,Divina Pastora,municipal,fundamental,finais (6-9),94.3,0.939942,225.6,214.89,4.008167,3.8,,48,Divina Pastora,8,Anos finais,8
+2025,SE,2806107,Rosário do Catete,municipal,fundamental,iniciais (1-5),98.2,0.983556,208.41,193.57,5.460797,5.4,,16,Rosario do Catete,1,Anos iniciais,1
+2025,SE,2803302,Japaratuba,municipal,fundamental,iniciais (1-5),95.7,0.956588,206.83,199.87,5.54519,5.3,,21,Japaratuba,2,Anos iniciais,2
+2025,SE,2807204,Siriri,municipal,fundamental,iniciais (1-5),97.4,0.974135,201.03,201.22,5.459049,5.3,,21,Siriri,2,Anos iniciais,3
+2025,SE,2801306,Capela,municipal,fundamental,iniciais (1-5),99.6,0.995993,200.75,188.62,5.224614,5.2,,29,Capela,4,Anos iniciais,4
+2025,SE,2801504,Carmópolis,municipal,fundamental,iniciais (1-5),95.0,0.952692,192.57,190.92,5.110325,4.9,,43,Carmopolis,5,Anos iniciais,5
+2025,SE,2805307,Pirambu,municipal,fundamental,iniciais (1-5),91.2,0.911324,197.13,201.58,5.391167,4.9,,43,Pirambu,5,Anos iniciais,6
+2025,SE,2802007,Divina Pastora,municipal,fundamental,iniciais (1-5),97.8,0.979099,191.28,183.49,4.950616,4.8,,49,Divina Pastora,7,Anos iniciais,7
+2025,SE,2802502,General Maynard,municipal,fundamental,iniciais (1-5),100.0,1.0,186.69,174.45,4.698657,4.7,,54,General Maynard,8,Anos iniciais,8
+2025,SE,2806503,Santa Rosa de Lima,municipal,fundamental,iniciais (1-5),99.1,0.988275,170.33,168.22,4.273171,4.2,,68,Santa Rosa de Lima,9,Anos iniciais,9
