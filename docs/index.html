@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
@@ -1691,11 +1691,18 @@ function renderSergipeCompare(id, stage){
   [2023,2025].forEach((year,i)=>{ const gap=getGap(stage,year); const x=left+190+i*350; const vals=[{label:'Rosário',v:gap.rosario_ideb,c:C.navy},{label:'Sergipe',v:gap.sergipe_media_municipal,c:C.gray}]; vals.forEach((d,j)=>{ const y=top+height-(d.v/10)*height; const b=rect(svg,x+j*82,y,56,top+height-y,{fill:d.c}); text(svg,x+j*82+28,y-10,formatIdeb(d.v),{'text-anchor':'middle',class:'value-label'}); bindTip(b, `<strong>${d.label} - ${year}</strong>IDEB: ${formatIdeb(d.v)}`); }); text(svg,x+69,top+height+50,String(year),{'text-anchor':'middle',class:'label'}); });
 }
 
+function dre4ScoreRank(stage, year, ideb){
+  const values=[...new Set(window.IDEB_DATA.dre4.filter(d=>d.etapa===stage&&d.ano===year&&d.ideb!==null&&d.ideb!==undefined).map(d=>Number(d.ideb).toFixed(1)))].map(Number).sort((a,b)=>b-a);
+  const idx=values.findIndex(v=>Number(v).toFixed(1)===Number(ideb).toFixed(1));
+  return idx>=0?idx+1:null;
+}
+function formatOrdinalNota(n){ return n ? `${n}ª` : ''; }
+
 function renderDre4Ranking(id, stage='Anos Iniciais', year=2025){
   const svg=makeSvg(document.getElementById(id),'0 0 900 560'); const df=window.IDEB_DATA.dre4.filter(d=>d.etapa===stage && d.ano===year).sort((a,b)=>a.posicao-b.posicao); const left=188, top=30, width=650, rowH=52;
-  df.forEach((d,i)=>{ const y=top+i*rowH; const w=(d.ideb/10)*width; const isR=d.id_municipio==='2806107'; const b=rect(svg,left,y,w,32,{fill:isR?C.yellow:C.navy,opacity:isR?1:.78}); text(svg,18,y+22,`${d.posicao}º`,{fill:isR?C.pink:C.muted,'font-weight':900,'font-size':15}); text(svg,55,y+22,d.municipio_dre4,{fill:isR?C.yellow:C.text,'font-weight':isR?900:600,'font-size':15}); text(svg,left+w+12,y+22,formatIdeb(d.ideb),{fill:C.navy,'font-weight':900,'font-size':15}); bindTip(b, `<strong>${d.municipio_dre4}</strong>${stage} — ${year}<br>IDEB: ${formatIdeb(d.ideb)}<br>Posição DRE 4: ${formatPosition(d.posicao)}`); });
+  const rankByIdeb=new Map([...new Set(df.map(d=>Number(d.ideb).toFixed(1)))].map(Number).sort((a,b)=>b-a).map((v,i)=>[v.toFixed(1),i+1]));
+  df.forEach((d,i)=>{ const y=top+i*rowH; const w=(d.ideb/10)*width; const isR=d.id_municipio==='2806107'; const scoreRank=rankByIdeb.get(Number(d.ideb).toFixed(1)); const rankLabel=formatOrdinalNota(scoreRank); const b=rect(svg,left,y,w,32,{fill:isR?C.yellow:C.navy,opacity:isR?1:.78}); text(svg,18,y+22,rankLabel,{fill:isR?C.pink:C.muted,'font-weight':900,'font-size':15}); text(svg,55,y+22,d.municipio_dre4,{fill:isR?C.yellow:C.text,'font-weight':isR?900:600,'font-size':15}); text(svg,left+w+12,y+22,formatIdeb(d.ideb),{fill:C.navy,'font-weight':900,'font-size':15}); bindTip(b, `<strong>${d.municipio_dre4}</strong>${stage} - ${year}<br>IDEB: ${formatIdeb(d.ideb)}<br>${rankLabel} maior nota da DRE 4`); });
 }
-
 function renderDre4Variation(id, stage='Anos Iniciais'){
   const svg=makeSvg(document.getElementById(id),'0 0 900 560'); const df=window.IDEB_DATA.dre4_variacao.filter(d=>d.etapa===stage && d.ideb_2023!==null && d.ideb_2025!==null).sort((a,b)=>a.variacao_absoluta-b.variacao_absoluta); const left=370, top=38, scale=285, rowH=54; line(svg,left,28,left,top+rowH*df.length,{stroke:C.text,'stroke-width':1}); df.forEach((d,i)=>{ const y=top+i*rowH; const v=d.variacao_absoluta; const x=v>=0?left:left+v*scale; const w=Math.abs(v*scale); const isR=d.id_municipio==='2806107'; const b=rect(svg,x,y,w,32,{fill:isR?C.yellow:(v>=0?C.mint:C.pink),opacity:isR?1:.78}); text(svg,30,y+22,d.municipio_dre4,{fill:isR?C.yellow:C.text,'font-weight':isR?900:600,'font-size':15}); text(svg,v>=0?left+w+12:x-12,y+22,formatDelta(v),{'text-anchor':v>=0?'start':'end',fill:C.navy,'font-weight':900,'font-size':15}); bindTip(b, `<strong>${d.municipio_dre4}</strong>${stage}<br>2023: ${formatIdeb(d.ideb_2023)}<br>2025: ${formatIdeb(d.ideb_2025)}<br>Variação: ${formatDelta(v)}`); });
 }
@@ -1776,7 +1783,7 @@ function setupControls(){
 }
 function setActive(btn, selector=null){ const parent=btn.parentElement; (selector?document.querySelectorAll(selector):parent.querySelectorAll('button')).forEach(b=>b.classList.remove('active')); btn.classList.add('active'); }
 function renderSergipeSlide(){ renderSergipeCompare('chart-sergipe',state.sergipeStage); putText('sergipe-title', state.sergipeStage+': comparação com Sergipe'); putHtml('sergipe-insight', gapPhrase(state.sergipeStage)+'<small>Sergipe = média municipal dos municípios disponíveis.</small>'); }
-function renderDre4Slide(){ renderDre4Ranking('chart-dre4-ranking',state.dre4Stage,state.dre4Year); const ros=window.IDEB_DATA.dre4.find(d=>d.etapa===state.dre4Stage&&d.ano===state.dre4Year&&d.id_municipio==='2806107'); putText('dre4-ranking-title', ros ? `Rosário ocupa a ${formatPosition(ros.posicao)} posição da DRE 4 em ${state.dre4Year}` : 'Rosário sem resultado disponível na seleção'); putHtml('dre4-ranking-insight', ros ? `${state.dre4Stage}: IDEB ${formatIdeb(ros.ideb)}` : 'Sem resultado disponível.'); }
+function renderDre4Slide(){ renderDre4Ranking('chart-dre4-ranking',state.dre4Stage,state.dre4Year); const ros=window.IDEB_DATA.dre4.find(d=>d.etapa===state.dre4Stage&&d.ano===state.dre4Year&&d.id_municipio==='2806107'); const rank=ros?dre4ScoreRank(state.dre4Stage,state.dre4Year,ros.ideb):null; putText('dre4-ranking-title', ros ? `Rosário tem a ${formatOrdinalNota(rank)} maior nota da DRE 4 em ${state.dre4Year}` : 'Rosário sem resultado disponível na seleção'); putHtml('dre4-ranking-insight', ros ? `${state.dre4Stage}: IDEB ${formatIdeb(ros.ideb)}<small>Empates tratados pela nota de IDEB.</small>` : 'Sem resultado disponível.'); }
 function renderDre4VarSlide(){ renderDre4Variation('chart-dre4-var',state.dre4VarStage); const ros=window.IDEB_DATA.dre4_variacao.find(d=>d.etapa===state.dre4VarStage&&d.id_municipio==='2806107'); putHtml('dre4-var-insight', `Rosário: ${formatDelta(ros.variacao_absoluta)} ponto<small>${state.dre4VarStage} · 2023 → 2025</small>`); }
 function renderDre4SlopeSlide(){ renderDre4Slope('chart-dre4-slope',state.slopeStage); }
 function renderSlideCharts(slide){ const r=slide.dataset.render; if(r==='summary') document.querySelectorAll('.counter-number').forEach(animateNumber); if(r==='dumbbell-iniciais') renderDumbbell('chart-iniciais','Anos Iniciais'); if(r==='dumbbell-finais') renderDumbbell('chart-finais','Anos Finais'); if(r==='summary-bars') renderSummaryBars('chart-summary-bars'); if(r==='sergipe') renderSergipeSlide(); if(r==='gap') renderGap('chart-gap'); if(r==='dre4-ranking') renderDre4Slide(); if(r==='dre4-variation') renderDre4VarSlide(); if(r==='dre4-slope') renderDre4SlopeSlide(); if(r==='flow') renderFlow('chart-flow'); if(r==='school-dumbbell') renderSchoolDumbbell('chart-school-dumbbell'); if(r==='school-var') renderSchoolVariation('chart-school-var'); }
